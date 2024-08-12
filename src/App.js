@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import './App.css';
+import ExpenseForm from './components/ExpenseForm';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <h1>예산 계산기</h1>
 
         <div style={{ width: '100%', backgroundColor: 'white', padding: '1rem' }}>
+          <ExpenseForm />
         </div>
         <div style={{ width: '100%', backgroundColor: 'white', padding: '1rem' }}>
         </div>
